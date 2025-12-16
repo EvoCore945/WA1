@@ -1,2 +1,4 @@
 # WA1
-ccccc
+## Autori
+- Filip Hofman
+- Matouš Cabicar
