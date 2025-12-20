@@ -155,12 +155,12 @@ img{
 
 
 h1.start {
-  font-size: 3em;
-  color:#f1f1f1;
-  text-align: left;  
+    font-size: 3em;
+    color:#f1f1f1;
+    text-align: left;
 }
 p.start {
-  
+
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6em;
     line-height: 1.5;
@@ -169,57 +169,57 @@ p.start {
 }
 
 .wheredoyouwanttogo {
-  display:flex;
-  padding: 0;
-  background-color: #644b4f;
-  min-height: 500px;
-  width: 100%;
-  flex-wrap: wrap;
-  padding-top: 5%;
-  box-sizing: border-box;
+    display:flex;
+    padding: 0;
+    background-color: #644b4f;
+    min-height: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    box-sizing: border-box;
 }
 
 .title-container {
-  display: flex;
-  justify-content:center;
-  width: 50%;
-  height:auto;
-  background:#644b4f;
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    height:auto;
+    background:#644b4f;
 }
 .details-container{
-	display: flex;
-	width: 50%;
-  height:auto;
-  flex-direction: column;
+    display: flex;
+    width: 50%;
+    height:auto;
+    flex-direction: column;
 }
 
-.contactus-container button {    
-  border: none;
-  display:block;
-  padding: 10px 20px;       
-  background: white;
-  color: black;
-  border-radius: 6px;
-  cursor: pointer;
-  width: fit-content;  
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  width: 200px;
-  height: 65px;
+.contactus-container button {
+    border: none;
+    display:block;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 65px;
 
 }
 .reviews-container h1{
-  display: flex;
-  height:auto;
-  background:white;
+    display: flex;
+    height:auto;
+    background:white;
 
 }
 h1.reviewstitle{
-  color:#000;
-  font-size: 3em;
-  padding: none;
-  margin: none;
+    color:#000;
+    font-size: 3em;
+    padding: none;
+    margin: none;
 
 }
 h1.bertietitle{
@@ -239,29 +239,29 @@ h1.franktitle{
     padding-left: 38%;
     padding-right: 38%;
     text-align: center;
-    
 
-    
+
+
 }
 p.reviewstext{
-  color: #000;
-  font-size: 20px;
+    color: #000;
+    font-size: 20px;
 
 
-  
+
 }
 
 .imgre-container{
-  display: flex;
-   width: 100%;
-  max-width: 500px;
-  border-radius: 8px;
-  
-  
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+
+
 }
 
 .reviewsimg1{
-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .reviewsimg2{
@@ -270,13 +270,13 @@ border-radius: 4px;
 
 
 .reviews{
-  display:flex;
-  background-color: white;
-  min-height: 5px;
-  width: 100%;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 2%;
+    display:flex;
+    background-color: white;
+    min-height: 5px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
 
 
 }
@@ -286,43 +286,21 @@ border-radius: 4px;
 
 
 @media screen and (width <= 768px) { /* w:390px */
-  .container {width:100%}
+    .container {width:100%}
 
     .topnav {
-        display: none;
-        overflow: hidden;
-        background-color: #33292a;
-        position: relative;
-        flex-direction: column;
+        /*display: none;*/
     }
-        .topnav li {
-            padding: 10px;
-        }
 
-    a.icon {
-        display: block;
-        color: #d9d9d9;
-        justify-self: flex-end;
-    }
+    a.icon {display:block}
 }
 
 @media screen and (width <= 992px) { /* w:390px */
-  .container {width:100%}
+    .container {width:100%}
 
     .topnav {
-        display: none;
-        overflow: hidden;
-        background-color: #33292a;
-        position: relative;
-        flex-direction: column;
-    }
-    .topnav li{
-        padding: 10px;
+        /*display: none;*/
     }
 
-    a.icon {
-        display: block;
-        color: #d9d9d9;
-        justify-self: flex-end;
-    }
+    a.icon {display:block}
 }
