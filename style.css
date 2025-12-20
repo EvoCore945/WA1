@@ -35,6 +35,7 @@ a.icon {display:none}
 
 .sec1 {background: url("./fotky/bg1.jpg") 50% 50%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .container-text {width:340px;text-align:right;bottom:11vh;right:10vw;position:absolute;}
 
@@ -151,6 +152,137 @@ img{
   font-weight: bold;
   color: #fff;
 }
+
+
+h1.start {
+  font-size: 3em;
+  color:#f1f1f1;
+  text-align: left;  
+}
+p.start {
+  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.wheredoyouwanttogo {
+  display:flex;
+  padding: 0;
+  background-color: #644b4f;
+  min-height: 500px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+
+.title-container {
+  display: flex;
+  justify-content:center;
+  width: 50%;
+  height:auto;
+  background:#644b4f;
+}
+.details-container{
+	display: flex;
+	width: 50%;
+  height:auto;
+  flex-direction: column;
+}
+
+.contactus-container button {    
+  border: none;
+  display:block;
+  padding: 10px 20px;       
+  background: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  width: fit-content;  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  height: 65px;
+
+}
+.reviews-container h1{
+  display: flex;
+  height:auto;
+  background:white;
+
+}
+h1.reviewstitle{
+  color:#000;
+  font-size: 3em;
+  padding: none;
+  margin: none;
+
+}
+h1.bertietitle{
+
+}
+h1.franktitle{
+
+}
+
+.reviewsdetails-container{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: auto;
+    line-height: 1.5;
+    padding:none;
+    flex-direction: column;
+    padding-left: 38%;
+    padding-right: 38%;
+    text-align: center;
+    
+
+    
+}
+p.reviewstext{
+  color: #000;
+  font-size: 20px;
+
+
+  
+}
+
+.imgre-container{
+  display: flex;
+   width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  
+  
+}
+
+.reviewsimg1{
+border-radius: 4px;
+}
+
+.reviewsimg2{
+
+}
+
+
+.reviews{
+  display:flex;
+  background-color: white;
+  min-height: 5px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+
+
+}
+
+
+
 
 
 @media screen and (width <= 768px) { /* w:390px */
