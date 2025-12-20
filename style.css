@@ -207,64 +207,6 @@ p.start {
   height: 65px;
 
 }
-.reviews-container h1{
-  display: flex;
-  height:auto;
-  background:white;
-
-}
-h1.reviewstitle{
-  color:#000;
-  font-size: 3em;
-  padding: none;
-  margin: none;
-
-}
-h1.bertietitle{
-
-}
-h1.franktitle{
-
-}
-
-.reviewsdetails-container{
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    font-size: auto;
-    line-height: 1.5;
-    padding:none;
-    flex-direction: column;
-    padding-left: 38%;
-    padding-right: 38%;
-    text-align: center;
-    
-
-    
-}
-p.reviewstext{
-  color: #000;
-  font-size: 20px;
-
-
-  
-}
-
-.imgre-container{
-  display: flex;
-   width: 100%;
-  max-width: 500px;
-  border-radius: 8px;
-  
-  
-}
-
-.reviewsimg1{
-border-radius: 4px;
-}
-
-.reviewsimg2{
-
-}
 
 
 .reviews{
@@ -275,11 +217,83 @@ border-radius: 4px;
   align-items: center;
   flex-direction: column;
   margin-top: 2%;
+  
+}
 
+.reviewfirst-container{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+
+.reviewsecond-container{
+  display: flex;
+  flex-direction: row;
 
 }
 
 
+.reviewfirst-container h1{
+  color:#000;
+  font-size: 3em;
+  padding: none;
+  margin: none;
+
+}
+.reviewfirst-container p{
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  padding:none;
+  flex-direction: column;
+  padding-left: 38%;
+  padding-right: 38%;
+  text-align: center;
+}
+
+
+.reviewsecond-container h1{
+  color:#000;
+  font-size: 1.2em;
+  text-align: center;
+  
+}
+.reviewsecond-container p{
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  padding:none;
+  flex-direction: column;
+  padding-left: 23%;
+  padding-right: 23%;
+  text-align: center;
+}
+.reviewsecond-container img{
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.clientreview-first{
+ display: flex;
+ flex-direction: column-reverse;
+
+
+}
+.clientreview-second{
+ display: flex;
+ flex-direction: column-reverse;
+}
 
 
 
