@@ -209,7 +209,6 @@ p.start {
     height: 65px;
 
 }
-<<<<<<< HEAD
 
 
 .reviews{
@@ -222,76 +221,6 @@ p.start {
   margin-top: 2%;
   
 }
-=======
-.reviews-container h1{
-    display: flex;
-    height:auto;
-    background:white;
-
-}
-h1.reviewstitle{
-    color:#000;
-    font-size: 3em;
-    padding: none;
-    margin: none;
-
-}
-h1.bertietitle{
-
-}
-h1.franktitle{
-
-}
-
-.reviewsdetails-container{
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    font-size: auto;
-    line-height: 1.5;
-    padding:none;
-    flex-direction: column;
-    padding-left: 38%;
-    padding-right: 38%;
-    text-align: center;
-
-
-
-}
-p.reviewstext{
-    color: #000;
-    font-size: 20px;
-
-
-
-}
-
-.imgre-container{
-    display: flex;
-    width: 100%;
-    max-width: 500px;
-    border-radius: 8px;
-
-
-}
-
-.reviewsimg1{
-    border-radius: 4px;
-}
-
-.reviewsimg2{
-
-}
-
-
-.reviews{
-    display:flex;
-    background-color: white;
-    min-height: 5px;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 2%;
->>>>>>> 47dedacda8dd97c7fc188ec527529898a38a2180
 
 .reviewfirst-container{
  display: flex;
