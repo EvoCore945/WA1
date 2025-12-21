@@ -49,6 +49,7 @@ a.icon {display:none}
   gap: 8px;
   max-width: 900px;
   margin: 0 auto;
+    padding: 60px;
 }
 
 .grid-item {
