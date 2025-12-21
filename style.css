@@ -1,13 +1,13 @@
 body {font-size: 15px;
   font-family: Roboto;
-  padding: 0px;
-  margin:0px
+  padding: 0;
+  margin:0;
 }
 .container {
   width:100%;
   margin:0 auto;
   position:relative;
-  border:0px solid rgb(0, 0, 0);
+  border:0 solid rgb(0, 0, 0);
 }
 section.container {min-height:963px}
 .topnav {
@@ -23,7 +23,7 @@ nav.container{background:#33292a;}
 .topnav li {
   list-style-type: none;
   font-size:25px;
-  border-right:0px solid blue;
+  border-right:0 solid blue;
   padding:0 5px;
 }
 
@@ -39,11 +39,13 @@ a.icon {display:none}
 }
 .container-text {width:340px;text-align:right;bottom:11vh;right:10vw;position:absolute;}
 
+.container-text h1 {font-size:76px;color: white}
+
 
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 8px;
   max-width: 900px;
   margin: 0 auto;
@@ -101,8 +103,27 @@ img{
 }
 
 
-.whatwedo {
+.photos-container {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    width: 100%;
+    margin: 0;
+    gap: 0;
+}
 
+.photos-container .grid-item2{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: none;
+    display: block;
+    border-radius: 0;
+    padding: 0;
+    overflow: hidden;
+    margin:0;
+}
+
+.whatwedo {
   margin: 60px auto;
   padding: 0 20px;
   text-align: center;
@@ -119,13 +140,16 @@ img{
 }
 
 .description {
+    display:inline-grid;
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 40px;
   color: #fff;
   max-width: 800px;
   justify-self:center;
+
 }
+
 
 .activities {
   display: flex;
@@ -201,7 +225,6 @@ p.start {
     color: black;
     border-radius: 6px;
     cursor: pointer;
-    width: fit-content;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -239,8 +262,8 @@ p.start {
 .reviewfirst-container h1{
   color:#000;
   font-size: 3em;
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
 
 }
 .reviewfirst-container p{
@@ -249,7 +272,7 @@ p.start {
   display: flex;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  padding:none;
+  padding:0;
   flex-direction: column;
   padding-left: 38%;
   padding-right: 38%;
@@ -269,7 +292,7 @@ p.start {
   display: flex;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  padding:none;
+  padding:0;
   flex-direction: column;
   padding-left: 23%;
   padding-right: 23%;
@@ -297,6 +320,32 @@ p.start {
  flex-direction: column-reverse;
 }
 
+
+.contact p{
+
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    justify-self:center;
+    text-align: center;
+
+    color: white;
+}
+
+.contact{
+    margin: 0;
+    padding: 20px;
+    background: #333333;
+}
+
+.contact h3{
+    background-color: #333333;
+    margin-top: 0;
+    text-align: center;
+    align-self: center;
+    color: #cf928b;
+    text-decoration: underline;
+}
 
 
 @media screen and (width <= 768px) { /* w:390px */
