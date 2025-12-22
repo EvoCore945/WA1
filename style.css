@@ -195,12 +195,12 @@ p.start {
 
 .wheredoyouwanttogo {
     display:flex;
-    padding: 0;
     background-color: #644b4f;
     min-height: 500px;
     width: 100%;
     flex-wrap: wrap;
     padding-top: 5%;
+    padding-bottom: 5%;
     box-sizing: border-box;
 }
 
@@ -231,7 +231,6 @@ p.start {
     font-size: 20px;
     width: 200px;
     height: 65px;
-
 }
 
 
@@ -273,7 +272,7 @@ p.start {
   display: flex;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  padding:0;
+  /*padding:0;*/
   flex-direction: column;
   padding-left: 38%;
   padding-right: 38%;
@@ -308,6 +307,10 @@ p.start {
   border-radius: 100%;
   overflow: hidden;
   margin: auto;
+}
+
+.contactus-container a {
+    text-decoration: none;
 }
 
 .clientreview-first{
@@ -356,7 +359,7 @@ p.start {
         display: none;
     }
 
-    a.icon {display:block; justify-self: flex-end; color:white;}
+    a.icon {display:block; justify-self: flex-end; color:white; font-size: 3em; padding: 10px; }
 }
 
 @media screen and (width <= 992px) { /* w:390px */
@@ -366,5 +369,73 @@ p.start {
         display: none;
     }
 
-    a.icon {display:block; justify-self: flex-end; color:white;}
+    .activities {
+        gap: 50px;
+    }
+
+    .reviewfirst-container h1{
+        font-size: 4em;
+        padding-top: 70px;
+    }
+
+    .reviewfirst-container p{
+        color: #000;
+        font-size: 1.2em;
+        display: flex;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        flex-direction:row;
+        padding-left: 18%;
+        padding-right: 18%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .reviewsecond-container p{
+        color: #000;
+        font-size: 1.2em;
+        display: inline-grid;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        flex-direction: column;
+        padding-left: 6%;
+        padding-right: 6%;
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .reviewsecond-container img{
+        float: left;
+        margin-left: 125px;
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    h1.start {
+        font-size: 5em;
+        color:#f1f1f1;
+        text-align: left;
+        max-width: 62%;
+    }
+
+    p.start {
+        font-size: 1.2em;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .contactus-container button {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        height: 50px;
+    }
+
+
+
+    a.icon {display:block; justify-self: flex-end; color:white; font-size: 3em; padding: 10px; }
 }
