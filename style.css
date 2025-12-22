@@ -37,9 +37,17 @@ a.icon {display:none}
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container-text {width:340px;text-align:right;bottom:11vh;right:10vw;position:absolute;}
+.container-text {width:340px;
+  text-align:right;
+  bottom:11vh;
+  right:10vw;
+  position:absolute;
+}
 
-.container-text h1 {font-size:76px;color: white}
+.container-text h1 {
+  font-size:76px;
+  color: white
+}
 
 
 
@@ -353,7 +361,149 @@ p.start {
 
 
 @media screen and (width <= 768px) { /* w:390px */
-    .container {width:100%}
+ nav.container {
+    justify-content: flex-end;
+  }
+
+  .topnav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #33292a;
+  }
+
+  .topnav li {
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  a.icon {
+    display: block;
+    color: white;
+    font-size: 2.2em;
+    padding: 15px;
+  }
+
+  section.container {
+    min-height: 100vh;
+  }
+
+  .container-text {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: auto;
+    text-align: right;
+  }
+
+  .container-text h1 {
+    font-size: 32px;
+    line-height: 1.1;
+    text-align: right;
+  }
+
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-left {
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .whatwedo {
+    padding: 40px 20px;
+
+  }
+
+  .whatwedo h1 {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .activities {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 40px;
+    align-items: center;
+
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .center-text {
+    font-size: 22px;
+    padding: 30px 0;
+  }
+
+  .wheredoyouwanttogo {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .title-container{
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+    
+
+  }
+
+  .details-container {
+    width: 100%;
+  }
+
+  h1.start {
+    font-size: 20px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  p.start {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .contactus-container {
+    margin-top: 20px;
+  }
+
+  .reviewsecond-container {
+    flex-direction: column;
+  }
+
+  .reviewfirst-container h1 {
+    font-size: 28px;
+  }
+
+  .reviewfirst-container p,
+  .reviewsecond-container p {
+    padding: 0 20px;
+    font-size: 15px;
+  }
+
+  .reviewsecond-container img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .photos-container {
+    grid-template-columns: 1fr;
+  }
+
 
     .topnav {
         display: none;
